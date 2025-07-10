@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+
+        <style> @import url('https://fonts.cdnfonts.com/css/cursed-timer-ulil'); </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="column">
+                <h3>HOME</h3>
+                <div class="score" id="homeScore">0
+                </div>
+                <div class="btn-container">
+                    <button onClick="homeAdd1Point()">+1</button>
+                    <button onClick="homeAdd2Point()">+2</button>
+                    <button onClick="homeAdd3Point()">+3</button>
+                </div>
+            </div>
+            <div class="">
+                <h3>GUEST</h3>
+                <div class="score" id="guestScore">0
+                </div>
+                <div class="btn-container">
+                    <button onClick="guestAdd1Point()">+1</button>
+                    <button onClick="guestAdd2Point()">+2</button>
+                    <button onClick="guestAdd3Point()">+3</button>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
